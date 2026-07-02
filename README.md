@@ -15,10 +15,6 @@ Contains the RSSI traces extracted from Cooja simulations. Each trace includes t
 Contains the Python preprocessing script used to generate the datasets for HMM training.
 The script generates observation vectors containing the input variables of the proposed HMM (RSSI, trend, and staleness) at intervals defined by the WINDOW parameter.
 This preprocessing mode was used to generate the dataset employed for HMM training in the paper.
-
-
-* **Packet Vector:** generates one sample for each received packet.
-* **Observation Vector:** generates observation vectors at fixed 1-second intervals. This is the preprocessing mode used to generate the dataset employed for HMM training in the paper.
   
 ## Reproducibility
 
